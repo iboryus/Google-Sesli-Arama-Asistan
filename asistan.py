@@ -37,7 +37,7 @@ def butona_basildi():
         google_arama_yap(aranacak)
         sesli_geri_bildirim("Google'da arama yapılıyor.")
     elif "çıkış" in komut:
-        sesli_geri_bildirim("Görüşmek üzere!")
+        sesli_geri_bildirim("Görüşmek üzere.")
         root.destroy()
 
 engine = pyttsx3.init()
